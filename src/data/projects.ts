@@ -75,7 +75,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   description:
     "A full-stack AI-powered SaaS career development platform that leverages Google Gemini LLM to generate ATS-optimized resumes, personalized cover letters, career roadmaps, and AI-driven coding practice with interview preparation. Features secure authentication with Clerk, background job processing using Inngest, and a responsive, modern UI built with Tailwind CSS.",
   sourceCodeHref: "https://github.com/krtanay7/ApexAI-ai-career-coach",
-  liveWebsiteHref: "",
+  liveWebsiteHref: "https://apex-ai-brown.vercel.app/",
 },
 
 
