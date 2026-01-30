@@ -73,7 +73,7 @@ Ensure you have the following installed:
 
 4. **Run the development server:**
    ```bash
-   npm run dev
+   pnpm start
    ```
 
 5. **Open your browser:**
