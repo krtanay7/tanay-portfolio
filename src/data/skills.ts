@@ -40,8 +40,8 @@ import PrismaSvg from "@/public/icons/prisma.svg";
 // Machine Learning
 // =====================
 import ScikitlearnSvg from "@/public/icons/scikit-learn.svg";
-import OpenCvSvg from "@/public/icons/OpenCV.svg";
-import PandasSvg from "@/public/icons/Pandas.svg";
+import OpenCvSvg from "@/public/icons/opencv.svg";
+import PandasSvg from "@/public/icons/pandas.svg";
 import NumpySvg from "@/public/icons/numpy.svg";
 import MLSvg from "@/public/icons/ml.svg";
 
@@ -60,8 +60,8 @@ import GitSvg from "@/public/icons/git.svg";
 import GithubSvg from "@/public/icons/github.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 import JwtSvg from "@/public/icons/jwt.svg";
-import ClerkSvg from"@/public/icons/clerk.svg";
-import JpSvg from"@/public/icons/jupyter.svg";
+import ClerkSvg from "@/public/icons/clerk.svg";
+import JpSvg from "@/public/icons/jupyter.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -74,7 +74,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "TypeScript", icon: TypescriptSvg },
       { name: "Python", icon: PythonSvg },
       { name: "Java", icon: JavaSvg },
-      
     ],
   },
   {
@@ -111,29 +110,26 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Scikit-learn", icon: ScikitlearnSvg },
       { name: "OpenCV", icon: OpenCvSvg },
       { name: "Pandas", icon: PandasSvg },
-      { name: "NumPy", icon: NumpySvg }, 
-      { name: "ML Algorithms", icon: MLSvg },   
-
+      { name: "NumPy", icon: NumpySvg },
+      { name: "ML Algorithms", icon: MLSvg },
     ],
   },
   {
     sectionName: "DevOps, Cloud & Deployment",
     skills: [
-      { name: "Vercel", icon: VercelSvg },
-      { name: "Render", icon: RenderSvg },
       { name: "Docker", icon: DockerSvg },
       { name: "AWS", icon: AwsSvg },
-    
+      { name: "Vercel", icon: VercelSvg },
+      { name: "Render", icon: RenderSvg },
     ],
   },
   {
     sectionName: "Tools & Utilities",
     skills: [
       { name: "Git", icon: GitSvg },
-      { name: "Git-Hub", icon: GithubSvg },
+      { name: "GitHub", icon: GithubSvg },
       { name: "Postman", icon: PostmanSvg },
-      { name: "Jupyter Notebook(.ipynb)", icon: JpSvg },
-    //{ name: "Google Colab", icon: SiGooglecolab },
+      { name: "Jupyter Notebook", icon: JpSvg },
       { name: "JWT Authentication", icon: JwtSvg },
       { name: "Clerk Authentication", icon: ClerkSvg },
     ],
