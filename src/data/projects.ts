@@ -24,8 +24,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     "A full-stack AI-powered SaaS career development platform that leverages Google Gemini LLM to generate ATS-optimized resumes, personalized cover letters, career roadmaps, and AI-driven coding practice with interview preparation. Features secure authentication with Clerk, background job processing using Inngest, and a responsive, modern UI built with Tailwind CSS.",
   image: {
 
-    LIGHT: "/images/projects/ApexAI.png",
-    DARK: "/images/projects/ApexAI.png",
+    LIGHT: "/images/projects/apexai/ApexAI.png",
+    DARK: "/images/projects/apexai/ApexAI.png",
     
   },
 },
