@@ -44,7 +44,7 @@ import OpenCvSvg from "@/public/icons/opencv.svg";
 import PandasSvg from "@/public/icons/pandas.svg";
 import NumpySvg from "@/public/icons/numpy.svg";
 import MLSvg from "@/public/icons/ml.svg";
-
+import anSvg from "@/public/icons/anaconda.svg"
 // =====================
 // DevOps / Cloud
 // =====================
@@ -111,6 +111,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "OpenCV", icon: OpenCvSvg },
       { name: "Pandas", icon: PandasSvg },
       { name: "NumPy", icon: NumpySvg },
+      { name: "ANACONDA", icon: anSvg },
       { name: "ML Algorithms", icon: MLSvg },
     ],
   },
