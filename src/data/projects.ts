@@ -90,7 +90,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "A storage management application built with ReactJS and Firebase. Users can securely store, retrieve, and manage their digital assets. Includes real-time synchronization, intuitive UI, and robust security features.",
-    sourceCodeHref: "https://github.com/SaurabhKumar171/store-it",
+    sourceCodeHref: "https://github.com/krtanay7/Store-it",
     liveWebsiteHref: "https://store-it-secure-eight.vercel.app/sign-in",
   },
   {
