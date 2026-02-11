@@ -45,8 +45,9 @@ export default function LandingHero() {
               <TypingText
                   roles={[
                     "Software Developer",
+                    "MERN/PERN Stack Developer",
                     "AI-ML Enthusiast",
-                    "Data Scientist",
+                    "Data Science Enthusiast",
                   ]}
                   className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl"
                 />
