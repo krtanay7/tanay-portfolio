@@ -72,14 +72,22 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
   const isMobileDebounced = useDebounceValue(isMobile, 600);
 
   return (
+    // <section
+    //   className="
+    //     overflow-hidden
+    //     px-6 py-32 sm:px-14 md:px-20
+    //     bg-white text-black
+    //     dark:bg-zinc-900 dark:text-white
+    //   "
+    // >
     <section
-      className="
-        overflow-hidden
-        px-6 py-32 sm:px-14 md:px-20
-        bg-white text-black
-        dark:bg-zinc-900 dark:text-white
-      "
-    >
+        className="
+          relative
+          overflow-hidden
+          px-6 py-32 sm:px-14 md:px-20
+        "
+      >
+
       <div className="mx-auto max-w-7xl">
         <h2 className="text-xl font-semibold text-accent sm:text-4xl">
           Skills
