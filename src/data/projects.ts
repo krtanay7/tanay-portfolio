@@ -36,8 +36,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["ReactJS", "Firebase", "TailwindCSS", "Material UI", "Vercel"],
     image: {
-      LIGHT: "/images/projects/3D_risk_engine/Engine.png",
-      DARK: "/images/projects/3D_risk_engine/Engine.png",
+      LIGHT: "/images/projects/storeithomepage.webp",
+      DARK: "/images/projects/storeithomepage.webp",
     },
   },
   {
@@ -52,8 +52,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     "Systemic Risk Modeling"
   ],
   image: {
-    LIGHT: "/images/projects/systemicrisk.webp",
-    DARK: "/images/projects/systemicrisk.webp",
+    LIGHT: "/images/projects/3D_risk_engine/Engine.png",
+    DARK: "/images/projects/3D_risk_engine/Engine.png",
   },
 },
 
@@ -97,7 +97,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   favicon: "/images/projects/logos/systemicrisk.ico",
   background: "bg-[#ffb74d] w-[2rem]",
   imageUrl: [
-    "/images/projects/3D_risk_engine/Engine.png",
     "/images/projects/3D_risk_engine/Engine.png",
     "/images/projects/3D_risk_engine/Engine.png",
   ],
