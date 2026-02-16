@@ -42,22 +42,21 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
   index: 2,
-  title: "Job Portal",
-  href: "/projects/job-portal",
+  title: "3D Systemic Risk Contagion Engine",
+  href: "/projects",
   tags: [
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "JWT",
-    "MERN",
-    "REST API",
+    "Python",
+    "Streamlit",
+    "Network Analysis",
+    "Data Visualization",
+    "Systemic Risk Modeling"
   ],
   image: {
-    LIGHT: "/images/projects/jobportal/portl.png",
-    DARK: "/images/projects/jobportal/portl.png",
+    LIGHT: "/images/projects/systemicrisk.webp",
+    DARK: "/images/projects/systemicrisk.webp",
   },
 },
+
 
 ];
 
@@ -93,18 +92,19 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/krtanay7/Store-it",
     liveWebsiteHref: "https://store-it-secure-eight.vercel.app/sign-in",
   },
-  {
-  name: "Job Portal",
-  favicon: "/images/projects/jobportal/logo.png",
-  background: "bg-[#0F172A] w-[5rem]",
+ {
+  name: "3D Systemic Risk Contagion Engine",
+  favicon: "/images/projects/logos/systemicrisk.ico",
+  background: "bg-[#ffb74d] w-[2rem]",
   imageUrl: [
-  
-    "/images/projects/jobportal/portl.png",
+    "/images/projects/3D_risk_engine/Engine.png",
+    "/images/projects/3D_risk_engine/Engine.png",
+    "/images/projects/3D_risk_engine/Engine.png",
   ],
   description:
-    "A full-stack MERN Job Portal application designed to streamline the hiring process for recruiters and job seekers. Recruiters can create, edit, and manage job postings, while candidates can browse opportunities, apply for jobs, and track application status. The platform features secure JWT-based authentication, role-based access control, recruiter and candidate dashboards, job search and filtering, and a responsive UI. Built with real-world scalability in mind using React, Node.js, Express, and MongoDB.",
-  sourceCodeHref: "https://github.com/krtanay7/Job-Portal",
-  liveWebsiteHref: "https://job-portal-tanay-three-inky.vercel.app/",
+    "An interactive analytics dashboard that simulates systemic risk propagation across interconnected financial assets. Built using network analysis and dynamic shock modeling, the project visualizes how financial shocks spread through correlation-based networks with adjustable parameters, real-time metrics, and 3D visualization.",
+  sourceCodeHref: "https://github.com/krtanay7/Systemic-Risk-Contagion-Network-Engine",
+  liveWebsiteHref: "https://systemic-risk-contagion-network-engine.streamlit.app/",
 },
 
 ];
