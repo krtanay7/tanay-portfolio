@@ -11,8 +11,8 @@ A modern, high-performance personal portfolio built with **Next.js** to showcase
 
 ## Live Preview
 
-**[https://your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)**  
-*(Replace this with your deployed URL)*
+**(https://krtanay007.vercel.app/)**  
+
 
 ---
 
