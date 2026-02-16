@@ -105,5 +105,19 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   sourceCodeHref: "https://github.com/krtanay7/Systemic-Risk-Contagion-Network-Engine",
   liveWebsiteHref: "https://systemic-risk-contagion-network-engine.streamlit.app/",
 },
+  {
+  name: "Job Portal",
+  favicon: "/images/projects/jobportal/logo.png",
+  background: "bg-[#4f46e5] w-[2rem]",
+  imageUrl: [
+    "/images/projects/jobportal/portl.png",
+    "/images/projects/jobportal/portl.png",
+    "/images/projects/jobportal/portl.png",
+  ],
+  description:
+    "A full-stack MERN job portal application designed to streamline the hiring process for recruiters and candidates. Recruiters can manage job postings while candidates can browse, apply, and track applications. The platform includes authentication, role-based access, dashboards, and scalable REST API architecture.",
+  sourceCodeHref: "https://github.com/krtanay7/Job-Portal",
+  liveWebsiteHref: "https://job-portal-frontend-three-inky.vercel.app/",
+},
 
 ];
